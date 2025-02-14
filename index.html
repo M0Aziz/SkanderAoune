@@ -1,1 +1,147 @@
 
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FNAF - Sauts de Peur en Temps Réel</title>
+    <style>
+        /* Style global */
+        body {
+            background-color: darkslateblue;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1, h2 {
+            text-align: center;
+            color: #ffcc00;
+            margin-top: 20px;
+        }
+
+        p {
+            text-align: center;
+            font-size: 1.2em;
+            margin: 10px 0;
+        }
+
+        /* Section de la description */
+        .description {
+            text-align: center;
+            font-size: 1.2em;
+            margin: 20px 0;
+            padding: 0 20px;
+        }
+
+        /* Flexbox pour la galerie d'images */
+        .image-gallery {
+            display: flex;
+            justify-content: space-around;
+            margin: 25px 0;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .image-gallery img {
+            width: 100%;
+            max-width: 450px;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .image-gallery img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+        }
+
+        /* Vidéo */
+        video {
+            width: 100%;
+            height: auto;
+            max-width: 800px;
+            display: block;
+            margin: 10px auto;
+            border-radius: 15px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+		
+		  .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+
+        hr {
+            border: 1px solid #ffcc00;
+            width: 80%;
+            margin: 40px auto;
+        }
+
+        /* Texte X et Y */
+        .text-end {
+            text-align: end;
+            margin-top: 25px;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .image-gallery img {
+                width: 100%;
+                max-width: none;
+            }
+
+            video {
+                max-width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+    <!-- Titre principal -->
+    <h1>FNAF - L'univers de l'Horreur en Temps Réel</h1>
+
+    <!-- Description de la page -->
+    <p class="description">
+        Découvrez l'univers effrayant de Five Nights at Freddy's (FNAF), un jeu à suspense où chaque saut de peur vous fait frissonner. Dans cette page, explorez les images et la vidéo des moments les plus intenses du jeu.
+    </p>
+
+    <!-- Galerie d'images -->
+    <h2>Les Personnages et l'Ambiance</h2>
+    <div class="image-gallery">
+        <img src="grimm-foxy-and-springtrap-from-the-fnaf-games-are-in-front-of-a-purple-background.avif" alt="Foxy et Springtrap">
+        <div>
+            <p style="text-align: center; font-size: 1.1em; color: #ffcc00;">Foxy et Springtrap - Ces deux personnages sont des figures iconiques de l'univers FNAF.</p>
+        </div>
+        <img src="cb9048d6b360b95029c875ef8595bfa5.jpg" alt="Saut de Peur">
+        <div>
+            <p style="text-align: center; font-size: 1.1em; color: #ffcc00;">Moments effrayants - Quand les sauts de peur prennent tout leur sens.</p>
+        </div>
+        <img src="images.jfif" alt="Monstre FNAF">
+        <div>
+            <p style="text-align: center; font-size: 1.1em; color: #ffcc00;">Le mystère des monstres - Ces créatures de l'ombre qui hantent l'univers du jeu.</p>
+        </div>
+    </div>
+
+    <!-- Vidéo -->
+    <h2>Vidéo : Sauts de Peur en Temps Réel</h2>
+    <p class="description">
+        Regardez cette vidéo pour vivre les moments les plus terrifiants de FNAF en temps réel. Vous allez frissonner à chaque saut de peur !
+    </p>
+    <video src="FNAF In Real Time - All Jumpscares.mp4" controls autoplay></video>
+
+    <hr>
+
+    <!-- Texte de fin -->
+    <p class="text-end">Skander Aoune</p>
+    <p class="text-end">CM2G</p>
+</div>
+</body>
+</html>
